@@ -185,7 +185,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8347877637379518894, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
       propertyPath: m_Name
-      value: Capsule
+      value: Red Thicc
       objectReference: {fileID: 0}
     - target: {fileID: 8356315530331395834, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
       propertyPath: m_IsTrigger
@@ -236,7 +236,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24.45, y: -3.12}
+  m_AnchoredPosition: {x: -24.34, y: -3.05}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &364826067
@@ -934,7 +934,7 @@ GameObject:
   - component: {fileID: 730915210}
   - component: {fileID: 730915209}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Text ("Battle")
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -983,7 +983,7 @@ MonoBehaviour:
 
     enemies to
 
-    conquer the world'
+    conquer the world!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1320,7 +1320,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 2
+  rolloffMode: 1
   BypassEffects: 1
   BypassListenerEffects: 1
   BypassReverbZones: 1
@@ -1731,7 +1731,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8347877637379518894, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
       propertyPath: m_Name
-      value: Capsule
+      value: Pink
       objectReference: {fileID: 0}
     - target: {fileID: 8356315530331395834, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
       propertyPath: m_IsTrigger
@@ -6559,7 +6559,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -6568,7 +6568,7 @@ AudioSource:
   MinDistance: 1
   MaxDistance: 500
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -6601,7 +6601,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -6616,7 +6616,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.06388889
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -6630,8 +6630,8 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 1
+      time: 0.019830704
+      value: 1.0041656
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -6654,7 +6654,7 @@ GameObject:
   - component: {fileID: 1146798099}
   - component: {fileID: 1146798101}
   m_Layer: 0
-  m_Name: Tilemap
+  m_Name: Dirt (Collider)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7966,7 +7966,7 @@ GameObject:
   - component: {fileID: 1226242763}
   - component: {fileID: 1226242762}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: Text (Friend Dialogue)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8011,7 +8011,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"Rid the world of evil!"'
+  m_text: "\"Rid the world of \nour evil, my friend!\""
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8192,7 +8192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8347877637379518894, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
       propertyPath: m_Name
-      value: Capsule
+      value: Red Thin
       objectReference: {fileID: 0}
     - target: {fileID: 8356315530331395834, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
       propertyPath: m_IsTrigger
@@ -8258,11 +8258,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 775375639225192521, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.84
+      value: -9.62
       objectReference: {fileID: 0}
     - target: {fileID: 775375639225192521, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.19
+      value: -10.45
       objectReference: {fileID: 0}
     - target: {fileID: 775375639225192521, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8330,7 +8330,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8347877637379518894, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
       propertyPath: m_Name
-      value: Capsule
+      value: Yellow Big
       objectReference: {fileID: 0}
     - target: {fileID: 8356315530331395834, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
       propertyPath: m_IsTrigger
@@ -8359,7 +8359,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1696669011}
   m_Layer: 0
-  m_Name: Enemies
+  m_Name: NPCs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8392,12 +8392,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 1653042146}
     m_Modifications:
     - target: {fileID: 775375639225192521, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7118
+      objectReference: {fileID: 0}
+    - target: {fileID: 775375639225192521, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7118
+      objectReference: {fileID: 0}
+    - target: {fileID: 775375639225192521, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.011515617
+      value: 1.0259
       objectReference: {fileID: 0}
     - target: {fileID: 775375639225192521, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.695998
+      value: 1.3918
       objectReference: {fileID: 0}
     - target: {fileID: 775375639225192521, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8433,7 +8441,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8347877637379518894, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
       propertyPath: m_Name
-      value: Capsule
+      value: Yellow Small
       objectReference: {fileID: 0}
     - target: {fileID: 8356315530331395834, guid: 59e951f8b4a256a49be0e6ed2daba2ec, type: 3}
       propertyPath: m_IsTrigger
